@@ -5,7 +5,7 @@
 
 .header {
     background-color: #00579c;
-    height: 8vh;
+    height: 10vh;
     display: flex;
     color: #fff;
     font-size: xx-large;
@@ -37,6 +37,7 @@ select {
 
 .card img {
     height: 30vh;
+    width: auto;
 }
 
 button {
@@ -51,5 +52,20 @@ button {
 
 button:hover {
     background-color: #00579c;
+    cursor: pointer;
+}
+
+.pager{
+    background-color: #e2e2e2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    height: 8vh;
+}
+
+.pager > a { 
+    padding-inline: 40px;
+    color: #00579c;
     cursor: pointer;
 }
