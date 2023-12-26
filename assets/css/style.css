@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-color: #00579c;
+    height: 8vh;
+    display: flex;
+    color: #fff;
+    font-size: xx-large;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.search {
+    height: 8vh;
+    background-color: #e2e2e2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+select {
+    border: #fff;
+    border-radius: 5%;
+}
+
+.card {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+
+.card img {
+    height: 30vh;
+}
+
+button {
+    border: none;
+    padding: 4px;
+    color: #fff;
+    background-color: #012f6b;
+    width: 20%;
+    border-radius: 3%;
+    font-size: large;
+}
+
+button:hover {
+    background-color: #00579c;
+    cursor: pointer;
+}
